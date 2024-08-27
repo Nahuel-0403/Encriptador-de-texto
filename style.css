@@ -1,0 +1,154 @@
+* {
+    background: #F3F5FC;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+.logo {
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 6%;
+}
+
+body {
+    
+    height: 980px;
+}
+
+main {
+    display: flex;
+    width: 1250px;
+    height: 800px;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.section-uno {
+    width: 800px;
+    height: 400px;
+}
+
+.section-dos {
+    height: 690px;
+}
+
+.text-area {
+    width: 684px;
+    border: none;
+    color: #0A3871;
+    margin-top: 30px;
+    text-transform: lowercase;
+    resize: none;
+}
+
+::placeholder { color: #0A3871 }
+    .text-area:focus{
+        outline: none;
+    }
+
+.mensaje {
+    background: white;
+    background-image: url("imagenes/Muñeco.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    resize: none;
+    border-radius: 24px;
+    color: #0A3871;
+    width: 400px;
+    height: 680px;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+    
+}
+
+.mensaje:focus {
+    outline: none;
+}
+
+.botones {
+    display: flex;
+    margin-top: 18px;
+
+}
+
+.btn-encriptar {
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.btn-desencriptar {
+    background-color: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    margin-left: 30px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.btn-div {
+    margin-top: -84px;
+    margin-left: 5px;
+}
+
+.btn-copiar {
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    width: 336px;
+    margin-top: 0px;
+    margin-left: 135px;
+}
+
+.informacion {
+    color: #495057;
+    font-size: 18px;
+}
+
+.footer {
+    max-width: 100%;
+    padding: 5px 0;
+}
+
+.copyright-footer {
+    display: flex;
+    justify-content: center;
+}
+
+.copyright {
+    
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.links-social {
+    display: flex;
+    height: 40px;
+    width: 40px;
+    padding-top: 11px;
+}
+
+@media (max-width: 1250px) {
+    .main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+        
+    
+}
+
+
