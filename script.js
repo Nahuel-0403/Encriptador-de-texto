@@ -45,8 +45,13 @@ function desencriptar(stringDesencriptada){
 
 function copiarTexto() {
     const textArea = document.querySelector(".mensaje");
-    textArea.select();
-    document.execCommand("copy");
-    alert("Texto copiado");
+    navigator.clipboard.writeText(textArea.value)
+        .then(() => {
+            alert("Texto copiado");
+        })
+        .catch(err => {
+            console.error("Error al copiar el texto: ", err);
+        });
+    
 }
 
